@@ -99,6 +99,9 @@ with st.sidebar:
                           help="A score at or above this value is classified as churn. Risk bands stay fixed.")
     st.caption("Low <30% · Medium 30–70% · High ≥70%")
     st.caption("Reproducible training · Seed 42")
+    st.caption("Created by Rashid Ali")
+    st.link_button("Connect on LinkedIn", "https://www.linkedin.com/in/rashid-ali-619671357/",
+                   icon=":material/open_in_new:", width="stretch")
 
 with st.container(key="hero"):
     st.caption("RETAIN / CUSTOMER INTELLIGENCE")
