@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+<title id="title">Retain ? Customer churn intelligence</title>
+<desc id="desc">A navy and teal project banner with an abstract network of customer connections.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#102238"/><stop offset="1" stop-color="#115e59"/></linearGradient></defs>
+<rect width="1200" height="340" rx="24" fill="url(#bg)"/>
+<g fill="none" stroke="#5eead4" opacity=".18"><circle cx="1050" cy="170" r="220"/><circle cx="1050" cy="170" r="165"/><circle cx="1050" cy="170" r="110"/><path d="M810 225L900 125L995 195L1100 80L1180 140" stroke-width="3"/></g>
+<g fill="#5eead4"><circle cx="810" cy="225" r="6"/><circle cx="900" cy="125" r="8"/><circle cx="995" cy="195" r="6"/><circle cx="1100" cy="80" r="8"/></g>
+<g font-family="Segoe UI, Arial, sans-serif"><text x="65" y="70" fill="#99f6e4" font-size="15" letter-spacing="4">CUSTOMER INTELLIGENCE</text><text x="60" y="162" fill="white" font-size="78" font-weight="700">Retain</text><text x="65" y="213" fill="#dbeafe" font-size="25">Understand churn. Prioritize your next conversation.</text><text x="65" y="282" fill="#99f6e4" font-size="16">UPLOAD DATA   /   EXPLORE PATTERNS   /   SCORE CUSTOMERS</text></g></svg>
