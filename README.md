@@ -1,7 +1,7 @@
-![Retain ? Customer churn intelligence](docs/assets/banner.svg)
+![Retain - Customer churn intelligence](docs/assets/banner.svg)
 
 <p align="center">
-  <strong>Python 3.11+ &nbsp; ? &nbsp; Streamlit &nbsp; ? &nbsp; Scikit-learn</strong><br>
+  <strong>Python 3.11+ &nbsp; &middot; &nbsp; Streamlit &nbsp; &middot; &nbsp; Scikit-learn</strong><br>
   <a href="#quick-start">Quick start</a> &nbsp; / &nbsp;
   <a href="#your-data">Your data</a> &nbsp; / &nbsp;
   <a href="docs/GUIDE.md">Full guide</a>
@@ -22,6 +22,19 @@ customers to help prioritize outreach.
 | Preview your uploaded data | Inspect model signals | Download an outreach list |
 
 A teal interface, animated background, and clear summary cards bring the results together.
+
+## A look at the data
+
+![Customer counts and observed churn rates by contract](docs/assets/customer-insights.png)
+
+These charts summarize **7,043 customers** in the local Telco workbook. Contract
+comparisons show historical associations, not proof that changing a contract prevents churn.
+
+![Validation ROC AUC comparison for four churn models](docs/assets/model-comparison.png)
+
+Model scores above come from a fresh run of this project's training pipeline on
+the local workbook, using the **20% validation split** and random seed **42**.
+They are validation scores, not held-out test results. Your uploaded data will produce different results.
 
 ## Quick start
 
@@ -48,14 +61,14 @@ python3 -m venv .venv
 
 Open the address printed in your terminal, usually **http://localhost:8501**.
 
-**Upload ? Review results ? Score current customers ? Export**
+**Upload  /  Review results  /  Score current customers  /  Export**
 
 Choose a labeled file on the start screen. Analysis begins automatically.
 For new customers without churn labels, use **Customer scoring** after training.
 
 ## Your data
 
-**Excel ? CSV ? TSV ? JSON** ? up to **25 MB** per file.
+**Excel / CSV / TSV / JSON** - up to **25 MB** per file.
 
 Training requires **40 or more unique rows**, with at least **8 churned** and
 **8 retained** customers, plus **two supported predictors**.
@@ -115,3 +128,10 @@ CI is configured for Python **3.11, 3.12, and 3.13**.
 Customer workbooks, saved models, and generated reports are excluded from Git.
 Keep customer JSON files in `uploads/`. Dataset redistribution rights are unverified;
 a software license has not yet been selected.
+
+---
+
+<p align="center">
+  Created by <a href="https://www.linkedin.com/in/rashid-ali-619671357/"><strong>Rashid Ali</strong></a><br>
+  <a href="https://www.linkedin.com/in/rashid-ali-619671357/">Connect on LinkedIn</a>
+</p>
