@@ -1,0 +1,12 @@
+ .gitattributes              |   5 [32m+[m
+ .github/workflows/tests.yml |  19 [32m++++[m
+ .gitignore                  |  29 [32m+++++[m
+ .streamlit/config.toml      |  21 [32m++++[m
+ Customer_prediction.py      | 241 [32m++++++++++++++++++++++++++++++++++++++++++[m
+ README.md                   | 250 [32m++++++++++++++++++++++++++++++++++++++++++++[m
+ churn_model.py              | 133 [32m+++++++++++++++++++++++[m
+ data/README.md              |  24 [32m+++++[m
+ requirements.txt            |   7 [32m++[m
+ tests/test_churn.py         |  37 [32m+++++++[m
+ tests/test_workflow.py      | 126 [32m++++++++++++++++++++++[m
+ 11 files changed, 892 insertions(+)

@@ -1,0 +1,21 @@
+[theme]
+base = "light"
+primaryColor = "#0F766E"
+backgroundColor = "#F8FAFC"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#172B4D"
+borderColor = "#CBD5E1"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "12px"
+font = "sans-serif"
+chartCategoricalColors = ["#0F766E", "#2563EB", "#D97706", "#7C3AED"]
+
+[theme.sidebar]
+backgroundColor = "#F1F5F9"
+
+[server]
+maxUploadSize = 25
+
+[browser]
+gatherUsageStats = false
